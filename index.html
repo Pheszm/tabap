@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+<meta charset="UTF-8">
+<title>My Own Works</title>
+<link rel="Icon" type="image/x-icon" href="ProfileArea/CarlsLogo.png">
+<link rel="stylesheet" href="Extensions/CarlsWeb.css">
+
+<style>
+    body {    
+    background-image: url("ProfileArea/BackGround.png"); 
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100%;   
+    width: 100%;
+    }  
+ </style>
+</head>
+
+
+<body>
+<div class="header">
+    <button class= "ProfileButton" onclick="ProfileFunc()">Profile</button>
+    <button class= "WorksButton" onclick="WorksFunc()">Works</button>
+</div>
+<script>
+    function ProfileFunc() {
+    document.body.scrollTop = 0; 
+     document.documentElement.scrollTop = 0;    
+}
+</script>
+<script>
+    function WorksFunc() {
+    document.body.scrollTop = 1000; 
+     document.documentElement.scrollTop = 1000;
+}
+</script>
+
+<img class="Logo1" src="ProfileArea/CarlsLogo.png">
+
+<div class="ProfileArea">
+    <b class ="ProfileName">Gallardo, Carl Wyne S.</b>
+    <img class="MyPic1" src="ProfileArea/FormalCarl1x1Pic.png"> 
+    <b class ="PositionText">Graphic Designer and Programmer</b>
+    <div class="BoxForProfile" style="background-color: rgb(10, 10, 10); padding: 50px;"></div>
+    <div class="BoxForProfile2" style="background-color: rgb(10, 10, 10); padding: 50px;"></div>
+</div>
+
+<div class = "DesignArea">
+    <b class ="WORKSTRING">MY WORKS</b>
+    <b class ="DesigningText">Shirt Design </b>
+    <button class= "Button1" onclick="goToPage()"></button>
+    <b class ="SecondText">Programming Codes</b>
+    <button class= "Button2" onclick="goToPage()"></button>
+    <b class ="thirdbutton">???</b>
+    <button class= "Button3" onclick="goToPage()"></button>
+    <div class="BoxForWorks" style="background-color: rgb(10, 10, 10); padding: 50px;"></div>
+</div>
+
+<script>
+    function goToPage() {
+        window.location.href = "path/to/your/page.html";
+    }
+    function goToPage() {
+        window.location.href = "path/to/your/page.html";
+    }
+    function goToPage() {
+        window.location.href = "path/to/your/page.html";
+    }
+</script>
+
+
+</body>
+</html>
